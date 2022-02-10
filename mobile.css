@@ -1,0 +1,23 @@
+@media only screen and (max-width: 600px) {
+    header {
+        background-color: navy ;
+        margin-top: auto;
+        margin-bottom: auto;
+        margin-left: auto;
+        margin-right: auto;
+    }
+     .header {
+     display: flex;
+     flex-wrap: wrap;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     align-content: center;
+     }
+     .menu {
+            width: 35px;
+            height: 5px;
+            background-color: black;
+            margin: 6px 0;
+          }
+        }
