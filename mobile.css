@@ -7,19 +7,40 @@
      align-items: center;
      align-content: center;
      }
-     .top {
+     .top-half {
        background-color: navy;
      }
-.half-top {
+.bottom-half {
   background-color: rgb(42, 105, 126)
 }
-
-
-
-     .menu {
+.menu {
             width: 35px;
             height: 5px;
             background-color: black;
             margin: 6px 0;
           }
+.pets {
+  display: flex;
+}
+.doggieo {
+  display: flex;
+}
+.recommendations {
+  display: flex;
+}
+.about {
+  display: flex;
+}
+.testimonials {
+  display: flex;
+}
+        
+      
+
+
+
+
+
+        
+        
         }
