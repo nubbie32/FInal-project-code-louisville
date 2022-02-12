@@ -3,15 +3,26 @@
      display: flex;
      flex-wrap: wrap;
      flex-direction: column;
-     justify-content: center;
-     align-items: center;
-     align-content: center;
+     padding-top: -20px;
+     padding-right: -20px;
+     padding-bottom: -20px;
+     padding-left: -20px;
+
      }
      .top-half {
        background-color: navy;
+       display: flex;
+       justify-content: center;
      }
 .bottom-half {
-  background-color: rgb(42, 105, 126)
+  background-color: rgb(42, 105, 126);
+  display: flex;
+       justify-content: center;
+}
+.cute {
+  background-image: url('puppy-hero-bg.jpg');
+  display: flex;
+  flex-wrap: wrap;
 }
 .menu {
             width: 35px;
@@ -32,6 +43,9 @@
   display: flex;
 }
 .testimonials {
+  display: flex;
+}
+.social {
   display: flex;
 }
         
