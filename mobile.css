@@ -3,46 +3,44 @@
     margin: 0;
   }
   
-  
   .header {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
-    padding-top: -20px;
-    padding-right: -20px;
-    padding-bottom: -20px;
-    padding-left: -20px;
-
   }
 
   .top-half {
-    background-color: navy;
-    display: flex;
-    justify-content: center;
-  }
-
-  .image-1 {
-    width: 50px ;
-    height: 50px;
+    background-color: #003964;
+    text-align: center;
   }
 
   .bottom-half {
-    background-color: rgb(42, 105, 126);
-    display: flex;
-    justify-content: center;
+    background-color: #074980;
+  }
+
+  .image-1 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 150px;
+    height: 150px;
+    margin-top: 25px;
+  }
+
+  .search {
+    display: block;
+    margin-left: 200px;
+  }
+
+  .textbox {
+    margin-bottom: 50px;
+    margin-top: 25px
   }
 
   .cute {
     background-image: url('puppy-hero-bg.jpg');
     display: flex;
     flex-wrap: wrap;
-  }
-
-  .menu {
-    width: 35px;
-    height: 5px;
-    background-color: black;
-    margin: 6px 0;
   }
 
   .pets {

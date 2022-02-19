@@ -22,6 +22,7 @@
         background-color: navy;
         display: flex;
         justify-content: center;
+        flex-wrap: wrap;
       }
     
       .bottom-half {
