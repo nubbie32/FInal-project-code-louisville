@@ -37,10 +37,62 @@
     margin-top: 25px
   }
 
+ul { 
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+  .dog-button {
+    background-color: #F85C62;
+    width: 100%; 
+    text-align: center;
+  }
+
+  .cat-button {
+    background-color: rgb(126, 77, 126);
+    width: 100%;
+    text-align: center;
+  }
+
+  .fish-button {
+    background-color: #3F9CE0;
+    width: 100%;
+    text-align: center;
+  }
+  .reptiles-button {
+    background-color: #39B173;
+    width: 100%;
+    text-align: center;
+  }
+
+  .birds-button {
+    background-color: #F88824;
+    width: 100%;
+    text-align: center;
+  }
+
+  .recommendations-button {
+    background-color: rgb(40, 109, 63);
+    width: 100%;
+    text-align: center;
+  }
+
+  .testimonal-button {
+    background-color: rgb(203, 219, 60);
+    width: 100%;
+    text-align: center;
+  }
+    
   .cute {
-    background-image: url('puppy-hero-bg.jpg');
+    background-image: url("images/puppy-hero-bg.jpg");
     display: flex;
+    flex: wrap;
+    flex-direction: column;
     flex-wrap: wrap;
+    align-content: flex-start;
+    justify-content: flex-start;
+    align-items: flex-start;
   }
 
   .pets {
