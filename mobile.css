@@ -87,18 +87,61 @@ ul {
   .cute {
     background-color: #F7B129 ;
   }
-   images/puppy-hero-bg.jpg {
-     height: 75px;
-     width: 75px;
-   }
-
+  .puppy {
+    display: flex;
+    flex-wrap: wrap;
+    height: 200px;
+    width: 200px;
+    margin-left: 100px;
+  }
    .pets{
     display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
   }
 
-  .doggieo {
-    display: flex;
+  .dogs {
+    background-image: url(images/dogs.jpg);
+    height: 500px;
+    background-position: center;
+    background-size: contain;
   }
+
+  .cats {
+    background-image: url(images/cats.jpg);
+    height: 500px;
+    background-position: center;
+    background-size: contain;
+  }
+  
+  .birds {
+    background-image: url(images/birds.jpg);
+    height: 500px;
+    background-position: center;
+    background-size: contain;
+  }
+
+.fish {
+  background-image: url(images/fish.jpg);
+  height: 500px;
+  background-position: center;
+  background-size: contain;
+}
+
+.reptiles {
+  background-image: url(images/reptiles.jpg);
+  height: 500px;
+  background-position: center;
+  background-size: contain;
+}
+
+.doggieo {
+  background-color: #003964;
+  display: flex;
+  flex-direction: column;
+  height: 500px;
+  align-items: center;
+}
 
   .recommendations {
     display: flex;
