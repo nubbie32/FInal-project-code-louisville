@@ -165,21 +165,58 @@ ul {
   }
 
   .about {
+    background-color: #F85C62;
     display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 200px;
+  
   }
 
   .testimonials {
+    background-color: rgb(121, 112, 112);
     display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+.text {
+  color:#003964
+}
+
+.circle {
+  border-width: 10px;
+  border-radius: 50%;
+}
+
+.social {
+  background-color: purple;
+  color: whitesmoke;
+}
+
+  .address {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 
-  .social {
-    display: flex;
-  }
+.media {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
+.info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
-
-
-
+footer {
+  background-color: #39B173;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
 
 
