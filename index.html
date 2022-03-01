@@ -28,6 +28,7 @@
             </div>
         </section>
         <nav>
+
             <ul>
                 <li class="dog-button">Dogs</li>
                 <li class="cat-button">Cats</li>
@@ -36,7 +37,7 @@
                 <li class="birds-button">Birds</li>
                 <li class="recommendations-button">Top Recomendations</li>
                 <li class="testimonal-button">Testimonals</li>
-            </ul>
+            </ul> 
         </nav>
 
         <section class="cute">
@@ -174,23 +175,57 @@
             </div>
 
             <div class="info">
-            <h3>Contacts</h3>
-            <p>Name</p>
-            <input class="name-box" type="name" name="name" id="email" placeholder="Enter Your name">
+                <h3>Contacts</h3>
+                <p>Name</p>
+                <input class="name-box" type="name" name="name" id="email" placeholder="Enter Your name">
 
-            <p>Email</p>
-            <input class="email-box" type="email" name="email" id="email" placeholder="Enter Your email">
+                <p>Email</p>
+                <input class="email-box" type="email" name="email" id="email" placeholder="Enter Your email">
 
-            <p>Message</p>
-            <input class="message-box" type="message" name="message" id="message" placeholder="Enter Your Message">
+                <p>Message</p>
+                <input class="message-box" type="message" name="message" id="message" placeholder="Enter Your Message">
 
-            <button id="submit" type="submit" class="submit-button">Send message</button>
+                <button id="submit" type="submit" class="submit-button">Send message</button>
             </div>
         </section>
 
     </main>
 
     <footer>Copyright 2022 PAW CITY CORP</footer>
+
+    <script>
+        let myFunction = function loggingFunction () {
+            console.log('order has been sent');
+        }
+        myFunction();
+
+        function showMessage(message) {
+            console.log(message);
+        }
+        showMessage('First Message');
+
+        let myFunction = function (firstName, lastName) {
+            console.log(firstName);
+            console.log(lastName);
+        }
+        myFunction('name, name');
+
+        function getSecretCode(value) {
+            let code = value * 42;
+            return code;
+        }
+        console.log(getSecretCode(2) );
+
+        function getSecretCode(value) {
+            let code = value * 42;
+            return code;
+
+        }
+
+        showMessage( getSecretCode(2) );
+    </script>
+
+
 </body>
 
 </html>
