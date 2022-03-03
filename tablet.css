@@ -62,16 +62,166 @@
     width: 100%;
     text-align: center;
   }
- 
-    
-    
-    
-    
-    
-    
-    
-    
+.meaning {
+  text-align: center;
+}
+  .cute {
+    background-color: #F7B129 ;
+  }
+  .puppy {
+    display: flex;
+    flex-wrap: wrap;
+    height: 600px;
+    width: 600px;
+    flex-direction: row;
+    margin-left: 10%;
+  }
+   .pets{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+.change {
+  color:#F7B129
+}
+
+
+  .dogs {
+    background-image: url(images/dogs.jpg);
+    height: 500px;
+    background-position: center;
+    background-size: cover;
+    width: 20%;
+  }
+
+  .cats {
+    background-image: url(images/cats.jpg);
+    height: 500px;
+    background-position: center;
+    background-size: cover;
+    width: 20%;
+  }
+  
+  .birds {
+    background-image: url(images/birds.jpg);
+    height: 500px;
+    background-position: center;
+    background-size: cover;
+    width: 20%;
+  }
+
+.fish {
+  background-image: url(images/fish.jpg);
+  height: 500px;
+  background-position: center;
+  background-size: cover;
+  width: 20%;
+}
+
+.reptiles {
+  background-image: url(images/reptiles.jpg);
+  height: 500px;
+  background-position: center;
+  background-size: cover;
+  width: 20%;
+}
+
+.doggieo {
+  background-color: #003964;
+  display: flex;
+  flex-direction: column-reverse;
+  height: 500px;
+  align-items: center;
+}
+
+  .recommendations {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: silver;
+  }
+
+  .recommendation1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+  }
+
+  .price {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .about {
+    background-color: #F85C62;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-bottom: 200px;
+  
+  }
+
+  .testimonials {
+    background-color: rgb(121, 112, 112);
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    align-content: flex-end;
+  }
+.text {
+  color:#003964
+}
+
+.circle {
+  border-width: 10px;
+  border-radius: 50%;
+}
+
+.social {
+  background-color: purple;
+  color: whitesmoke;
+}
+
+  .address {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+.media {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+footer {
+  background-color: #39B173;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 
 
 
 }
+    
+    
+    
+    
+    
+    
+    
+    
+
+
+
