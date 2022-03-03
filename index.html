@@ -27,6 +27,7 @@
 
                 <button id="submit" type="submit" class="submit-button">Submit</button>
             </div>
+            <h1 id="introduction">Here it is</h1>
         </section>
         <nav>
             <div class="container">
@@ -98,55 +99,73 @@
         </article>
 
         <article class="recommendations">
-            <h2>Top Recomendations</h2>
-            <h3>Tops products chosen by our own customers. Lokk at them now and see for yourself!</h3>
+            <h2 id="middle">Top Recomendations</h2>
+           <h3>Tops products chosen by our own customers. Lokk at them now and see for yourself!</h3>
 
+<div class="test">
+
+          <div class="box1">
             <div class="recommendation1">
                 <img src="images/karsten-winegeart-oU6KZTXhuvk-unsplash.jpg" width="25%" height="50%>
             </div>
-            
+
+        
             <div class= "price">
                 <p>Doggo Hoodie</p>
                 <p>8.99</p>
                 <button id="submit" type="submit" class="submit-button">Add to Cart</button>
             </div>
-
-            <div>
+        </div>
+               
+            <div class="box2">
+            <div class="recommendation1">
                 <img src="images/karsten-winegeart-oU6KZTXhuvk-unsplash.jpg" width="25%" height="50%>
             </div>
+        
                 
+        
             <div class= "price">
                 <p>Doggo Hoodie</p>
                 <p>8.99</p>
                 <button id="submit" type="submit" class="submit-button">Add to Cart</button>
             </div>
+</div>
 
+<div class="box3">
             <div class="recommendation1">
                 <img src="images/karsten-winegeart-oU6KZTXhuvk-unsplash.jpg" width="25%" height="50%>
             </div>
 
+            
             <div class=" price">
                 <p>Doggo Hoodie</p>
                 <p>8.99</p>
                 <button id="submit" type="submit" class="submit-button">Add to Cart</button>
             </div>
+</div>
 
-            <div>
+<div class="box4">
+            <div class="recommendation1">
                 <img src="images/karsten-winegeart-oU6KZTXhuvk-unsplash.jpg" width="25%" height="50% >
             </div>
+        
 
+        
             <div class=" price">
                 <p>Doggo Hoodie</p>
                 <p>8.99</p>
                 <button id="submit" type="submit" class="submit-button">Add to Cart</button>
             </div>
+        </div>
+            
+        </div>
 
         </article>
 
         <section class="about">
             <img src="images/about-pawscity.jpg" alt="open sign" width="50%" height="50%">
-            <h2>About Paw City Pet Supply Co</h2>
-            <p>The city offers many things to its customers. <br>Nothing big but small objects of value.<br> Stuff you
+            <h2 class="about2">About Paw City Pet Supply Co</h2>
+            <p class="about3">The city offers many things to its customers. <br>Nothing big but small objects of value.<br> Stuff you
                 will find to your liking that has <br>no meaning but your own value.</p>
         </section>
 
@@ -157,9 +176,11 @@
 
 
             <img class="circle" src="images/testimonial-elaineb.jpg" alt="testimonial" width="200" height="200">
-            <p>Often the food i find is for cats. <br>But the food quality is amazing with <br>all the jackests, cloths
-                and beds. <br>I cannot thank them <br>enough for this.</p>
-            <p>Elaine Bennet</p>
+            
+            
+            <p><em>Often the food i find is for cats. <br>But the food quality is amazing with <br>all the jackests, cloths
+                and beds. <br>I cannot thank them <br>enough for this.</em></p>
+            <p><b>Elaine Bennet</b></p>
 
 
         </article>
@@ -175,7 +196,14 @@
 
             <div class="media">
                 <h3>Social</h3>
-                <img>icons
+
+                <div class="pictures">
+                <img src="images/pngtree-facebook-icon-png-image_3566127.png" width="2.5%" height="2.5%">
+                <img src="images/pngtree-facebook-icon-png-image_3566127.png" width="2.5%" height="2.5%">
+                <img src="images/pngtree-facebook-icon-png-image_3566127.png" width="2.5%" height="2.5%">
+                </div>
+
+
             </div>
 
             <div class="info">
@@ -195,7 +223,7 @@
 
     </main>
 
-    <footer>Copyright 2022 PAW CITY CORP</footer>
+    <footer id="end">Copyright 2022 PAW CITY CORP</footer>
 
     <script>
         let hamburger = document.querySelector('.hamburger');
@@ -207,6 +235,17 @@
             menu.classList.toggle('active');
 
         });
+
+        let introduction = "Welcome to the page.";
+        showMessage(introduction);
+
+        let middle = "Half way there.";
+        showMessage(middle);
+
+        let end = "You have reached the end.";
+        showMessage(end);
+
+
     </script>
 
 

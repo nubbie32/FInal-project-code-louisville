@@ -40,7 +40,7 @@
   
  ul { 
   list-style-type: none;
-  margin: 0;
+  margin-top: 0%;
   padding: 0;
 }
 
@@ -48,6 +48,8 @@
     background-color: #F85C62;
     width: 100%; 
     margin-top: 0%;
+    margin-right: 0%;
+    margin-left: 0%;
     text-align: center;
   }
 
@@ -138,17 +140,68 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: silver;
+    background-color: #003964;
+    color: #F7B129;
+    border: #f7b129;
+    border-style: solid;
   }
 
-  .recommendation1 {
+  .test {
+    display: grid;
+    grid-template-columns: repeat(6, 200px);
+    grid-template-rows: repeat(5, 100px);
+    gap: 1rem;
+    background-color:#003964;
+}
+
+.box1 {
+  background-color: blue;
+  grid-column: 2 / 3;
+  grid-row: 2 / 3;
+}
+
+.box2 {
+  background-color: blueviolet;
+  grid-column: 3 / 4;
+  grid-row: 2 / 3;
+}
+
+.box3 {
+  background-color: brown;
+  grid-column: 4 / 5;
+  grid-row: 2 / 3;
+
+}
+.box4 {
+  background-color: seagreen;
+  grid-column: 5 / 6;
+  grid-row: 2 / 3;
+}
+
+
+
+  /*.recommendation1 {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
     flex-wrap: wrap;
-    align-content: center;
+    align-content: flex-end;
     justify-content: center;
   }
+  .recommendation2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: flex-end;
+    justify-content: center;
+  }
+*/
+
+
+
+
+
 
   .price {
     display: flex;
@@ -159,25 +212,35 @@
     background-color: #F85C62;
     display: flex;
     flex-direction: row;
-    align-items: center;
+    align-items: flex-start;
     padding-bottom: 200px;
-  
+    flex-wrap: nowrap;
+  }
+
+  .about2 {
+    border-color: purple;
+    border-style: double;
+  }
+
+  .about3 {
+    border-color: white;
+    border-style: solid;
   }
 
   .testimonials {
     background-color: rgb(121, 112, 112);
     display: flex;
-    flex-direction: row;
-    align-items: stretch;
-    align-content: flex-end;
+
   }
-.text {
+  .text {
   color:#003964
 }
 
 .circle {
   border-width: 10px;
   border-radius: 50%;
+  border-style: solid;
+  border-color: black;
 }
 
 .social {
@@ -195,6 +258,12 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.pictures {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
 
 .info {
