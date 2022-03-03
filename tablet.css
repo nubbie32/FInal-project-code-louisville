@@ -1,82 +1,76 @@
-@media only screen and (max-width: 1326px) {
-   body {
-       margin: 0;
-   }
-   
-    .tablet {
-        display: grid;
-    }
+@media only screen and (min-width: 601px ) {
+  body {
+    margin: 0;
+  }
+  
+  .header {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
 
-    .header {
-        display: flex;
-        flex-wrap: wrap;
-        flex-direction: column;
-        padding-top: -20px;
-        padding-right: -20px;
-        padding-bottom: -20px;
-        padding-left: -20px;
-    
-      }
-    
-      .top-half {
-        background-color: navy;
-        display: flex;
-        justify-content: center;
-        flex-wrap: wrap;
-      }
-    
-      .bottom-half {
-        background-color: rgb(42, 105, 126);
-        display: flex;
-        justify-content: center;
-      }
-    
-      .cute {
-        background-image: url('puppy-hero-bg.jpg');
-        display: flex;
-        flex-wrap: wrap;
-      }
-    
-      .menu {
-        width: 35px;
-        height: 5px;
-        background-color: black;
-        margin: 6px 0;
-      }
-    
-      .pets {
-        display: flex;
-      }
-    
-      .doggieo {
-        display: flex;
-      }
-    
-      .recommendations {
-        display: flex;
-      }
-    
-      .about {
-        display: flex;
-      }
-    
-      .testimonials {
-        display: flex;
-      }
-    
-      .social {
-        display: flex;
-      }
-    
-    
-    
-    
-    
-    
-    
-    
+  .top-half {
+    background-color: #003964;
+    text-align: center;
+  }
 
+  .bottom-half {
+    background-color: #074980;
+  }
 
+  .image-1 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 160px;
+    height: 150px;
+    margin-top: 25px;
+  }
+
+  .search {
+    display: block;
+    margin-left: 200px;
+  }
+
+  .textbox {
+    margin-bottom:50px ;
+    margin-top: 25px
+  }
+
+  
+ ul { 
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+  .dog-button {
+    background-color: #F85C62;
+    width: 100%; 
+    margin-top: 0%;
+    text-align: center;
+  }
+
+  .cat-button {
+    background-color: rgb(126, 77, 126);
+    width: 100%;
+    text-align: center;
+  }
+
+  .fish-button {
+    background-color: #3F9CE0;
+    width: 100%;
+    text-align: center;
+  }
+ 
+    
+    
+    
+    
+    
+    
+    
+    
 
 
 
