@@ -20,56 +20,132 @@
   .top-half {
     background-color: #003964;
     text-align: center;
+    display: flex;
+    flex-direction: row;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Slab', serif;
+    color: white;
+    flex-wrap: nowrap;
   }
+
+  .distance {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
 
   .bottom-half {
     background-color: #074980;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
   }
 
   .image-1 {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+    display: flex;
+    margin-left: 50%;
+    margin-right: 10%;
     width: 160px;
     height: 150px;
-    margin-top: 25px;
+    margin-top: 25%;
+    margin-bottom: 25%;
   }
 
   .search {
     display: block;
-    margin-left: 600px;
+
   }
 
   .textbox {
-    margin-bottom: 50px;
-    margin-top: 25px
+    border-style: solid;
+    border-radius: 10%;
+    font-size: 30px;
+    margin-top: 20%;
   }
 
-  .buttons {
-    display: grid;
-
+  .submit-button {
+    background-color: rgb(161, 53, 14);
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Slab', serif;
   }
 
+  .hello {
+    margin-right: 20%;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Slab', serif;
+    color: aliceblue;
+  }
+
+  ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+  }
 
   .dog-button {
     background-color: #F85C62;
-    width: 100%;
-    margin-top: 0%;
-    margin-right: 0%;
-    margin-left: 0%;
+    width: 50%;
     text-align: center;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    margin-left: 0%;
+    margin-right: 0%;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Slab', serif;
+    color: white;
   }
 
   .cat-button {
     background-color: rgb(126, 77, 126);
-    width: 100%;
+    width: 50%;
     text-align: center;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    margin-left: 0%;
+    margin-right: 0%;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Slab', serif;
+    color: white;
   }
 
   .fish-button {
     background-color: #3F9CE0;
-    width: 100%;
+    width: 50%;
     text-align: center;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    margin-left: 0%;
+    margin-right: 0%;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Slab', serif;
+    color: white;
+  }
+
+  .birds-button {
+    background-color: #F88824;
+    width: 50%;
+    text-align: center;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    margin-left: 0%;
+    margin-right: 0%;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Slab', serif;
+    color: white;
+    text-decoration: none;
+  }
+
+  .reptiles-button {
+    background-color: #39B173;
+    width: 50%;
+    text-align: center;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    margin-left: 0%;
+    margin-right: 0%;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Slab', serif;
+    color: white;
   }
 
   .meaning {
@@ -80,13 +156,38 @@
     background-color: #F7B129;
   }
 
+  .cute1 {
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Slab', serif;
+    color: #003964;
+    text-align: center;
+  }
+
+  .cute2 {
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Slab', serif;
+    color: #003964;
+    text-align: center;
+  }
+
+  .cute3 {
+    background-color: #003964;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Slab', serif;
+    color: white;
+    margin-left: 35%;
+    width: 10%;
+    height: 10%;
+  }
+
   .puppy {
     display: flex;
     flex-wrap: wrap;
-    height: 600px;
-    width: 600px;
+    height: 40%;
+    width: 30%;
     flex-direction: row;
-    margin-left: 10%;
+    margin-left: 35%;
+
   }
 
   .pets {
@@ -109,12 +210,24 @@
     width: 20%;
   }
 
+  .dogs1 {
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Slab', serif;
+    color: white;
+  }
+
   .cats {
     background-image: url(images/cats.jpg);
     height: 500px;
     background-position: center;
     background-size: cover;
     width: 20%;
+  }
+
+  .cats1 {
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Slab', serif;
+    color: white;
   }
 
   .birds {
@@ -125,12 +238,24 @@
     width: 20%;
   }
 
+  .birds1 {
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Slab', serif;
+    color: white;
+  }
+
   .fish {
     background-image: url(images/fish.jpg);
     height: 500px;
     background-position: center;
     background-size: cover;
     width: 20%;
+  }
+
+  .fish1 {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Slab', serif;
   }
 
   .reptiles {
@@ -141,81 +266,69 @@
     width: 20%;
   }
 
+  .reptiles1 {
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Slab', serif;
+    color: white;
+  }
+
   .doggieo {
     background-color: #003964;
     display: flex;
-    flex-direction: column-reverse;
+    flex-direction: row;
     height: 500px;
     align-items: center;
+  }
+
+  .attempt {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .cool-dog {
+    height: 70%;
+    margin-left: 25%;
   }
 
   .recommendations {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #003964;
-    color: #F7B129;
-    border: #f7b129;
-    border-style: solid;
+
   }
 
   .test {
     display: grid;
     grid-template-columns: repeat(6, 200px);
-    grid-template-rows: repeat(5, 100px);
+    grid-template-rows: repeat(2, 200px);
     gap: 1rem;
-    background-color: #003964;
+
   }
 
   .box1 {
     background-color: blue;
     grid-column: 2 / 3;
-    grid-row: 2 / 3;
+    grid-row: 1 / 2;
   }
 
   .box2 {
     background-color: blueviolet;
     grid-column: 3 / 4;
-    grid-row: 2 / 3;
+    grid-row: 1 / 2;
   }
 
   .box3 {
     background-color: brown;
     grid-column: 4 / 5;
-    grid-row: 2 / 3;
+    grid-row: 1 / 2;
 
   }
 
   .box4 {
     background-color: seagreen;
     grid-column: 5 / 6;
-    grid-row: 2 / 3;
+    grid-row: 1 / 2;
   }
-
-
-
-  /*.recommendation1 {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    flex-wrap: wrap;
-    align-content: flex-end;
-    justify-content: center;
-  }
-  .recommendation2 {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    flex-wrap: wrap;
-    align-content: flex-end;
-    justify-content: center;
-  }
-*/
-
-
-
-
-
 
   .price {
     display: flex;
@@ -225,30 +338,33 @@
   .about {
     background-color: #F85C62;
     display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    padding-bottom: 200px;
-    flex-wrap: nowrap;
+    flex-direction: row-reverse;
+    align-content: flex-start;
+    justify-content: center;
+  }
+
+  .store {
+    width: 25%;
+    height: 25%;
   }
 
   .about2 {
-    border-color: purple;
-    border-style: double;
+    display: flex;
+    flex-direction: column;
     font-family: 'Roboto', sans-serif;
     font-family: 'Roboto Slab', serif;
-  }
-
-  .about3 {
-    border-color: white;
-    border-style: solid;
+    margin-right: 10%;
     font-family: 'Roboto', sans-serif;
     font-family: 'Roboto Slab', serif;
+    color: white;
   }
 
   .testimonials {
-    background-color: rgb(121, 112, 112);
+    background-color: lightgray;
     display: flex;
-
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 10%;
   }
 
   .text {
@@ -257,44 +373,52 @@
     font-family: 'Roboto Slab', serif;
   }
 
+  .client {
+    border: solid;
+    color: gold;
+    border-radius: 3%;
+    background-color: lightgoldenrodyellow;
+    display: flex;
+    flex-direction: row-reverse;
+  }
+
   .circle {
-    border-width: 10px;
+    border: none;
     border-radius: 50%;
-    border-style: solid;
-    border-color: black;
+
+  }
+
+  .words {
+    display: flex;
+    flex-direction: column;
   }
 
   .social {
     background-color: purple;
     color: whitesmoke;
+    display: flex;
+    flex-direction: row;
+    margin-top: 0%;
   }
 
   .address {
     display: flex;
     flex-direction: column;
-    align-items: center;
     font-family: 'Roboto', sans-serif;
     font-family: 'Roboto Slab', serif;
-  }
-
-  .media {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    font-family: 'Roboto', sans-serif;
-    font-family: 'Roboto Slab', serif;
+    margin-left: 35%;
   }
 
   .pictures {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    height: 10%;
   }
 
   .info {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    margin-right: 20%;
     font-family: 'Roboto', sans-serif;
     font-family: 'Roboto Slab', serif;
   }
@@ -304,6 +428,8 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Slab', serif;
   }
 
 
