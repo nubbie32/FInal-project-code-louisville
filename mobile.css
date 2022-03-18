@@ -208,7 +208,7 @@
   }
 
   .pup1 {
-    color:white;
+    color: white;
     font-family: 'Roboto', sans-serif;
     font-family: 'Roboto Slab', serif;
     background-color: #074980;
@@ -316,19 +316,32 @@
     align-items: center;
   }
 
+  .buy {
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Slab', serif;
+    color: #003964;
+    margin-top: 10%;
+
+  }
+
   .recommendation1 {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-right: 25px;
-    margin-left: 25px;
-    margin-top: 25px;
-    margin-bottom: 25px;
+    margin-left: 15%;
+    margin-top: 10%;
+
+
   }
 
   .price {
     display: flex;
     flex-direction: column;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Slab', serif;
+    color: black;
+    margin-left: 15%;
   }
 
   .about {
@@ -340,11 +353,38 @@
 
   }
 
+  .store {
+    width: 100%;
+    height: 50%;
+  }
+
+  .about2 {
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Slab', serif;
+    color: white;
+    margin-top: 10%;
+  }
+
+  .about3 {
+    margin-top: 5%;
+  }
+
   .testimonials {
     background-color: rgb(121, 112, 112);
     display: flex;
     flex-direction: column;
     align-items: center;
+  }
+
+  .girl {
+    margin-top: 10%;
+    margin-left: 10%;
+  }
+
+  .girl2 {
+    margin-top: 10%;
+    margin-left: 20%;
+    margin-bottom: 10%;
   }
 
   .text {
@@ -356,9 +396,19 @@
     border-radius: 50%;
   }
 
+  .client {
+    border: solid;
+    color: gold;
+    border-radius: 3%;
+    background-color: lightgoldenrodyellow;
+    margin-bottom: 10%;
+  }
+
   .social {
     background-color: purple;
     color: whitesmoke;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Slab', serif;
   }
 
   .address {
@@ -367,10 +417,35 @@
     align-items: center;
   }
 
+  .ending1 {
+    margin-top: 10%;
+    margin-bottom: 10%;
+  }
+
+  .ending2 {
+    margin-bottom: 10%;
+    margin-left: 10%;
+  }
+
+  .ending3 {
+    margin-bottom: 10%;
+    margin-left: 27%;
+  }
+
   .media {
+    margin-bottom: 10%;
+  }
+
+  .pictures {
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    flex-direction: row;
+  }
+
+  .modify {
+    height: 50%;
+    width: 50%;
+    margin-left: 25%;
+    margin-bottom: 10%;
   }
 
   .info {
@@ -379,11 +454,41 @@
     align-items: center;
   }
 
+  .contact1 {
+    margin-bottom: 10%;
+  }
+
+  .contact2 {
+    margin-bottom: 5%;
+  }
+
+  .name-box {
+    font-size: 20px;
+    margin-bottom: 5%;
+  }
+
+  .message-box {
+    font-size: 20px;
+    width: 50%;
+    height: 50%;
+    margin-bottom: 8%;
+  }
+
+  .last-button {
+    background-color: orangered;
+    width: 15%;
+    margin-bottom: 10%;
+  }
+
   footer {
     background-color: #39B173;
     display: flex;
     flex-direction: column;
     align-items: center;
+    height: 100px;
+    color: whitesmoke;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Slab', serif;
   }
 
 
