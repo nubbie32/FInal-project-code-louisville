@@ -1,10 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;500;600&family=Roboto:wght@500&display=swap');
 
-.fonts {
-  font-family: 'Roboto', sans-serif;
-  font-family: 'Roboto Slab', serif;
-  color: orangered;
-}
 
 @media only screen and (min-width: 601px) {
   body {
