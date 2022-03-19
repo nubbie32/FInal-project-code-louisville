@@ -53,7 +53,7 @@
 
   .textbox {
     border-style: solid;
-    border-radius: 10%;
+    border-radius: 15%;
     font-size: 30px;
     margin-top: 20%;
   }
@@ -280,6 +280,12 @@
     flex-direction: column;
   }
 
+  .fonts {
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Slab', serif;
+    color: white;
+  }
+
   .cool-dog {
     height: 70%;
     margin-left: 25%;
@@ -290,6 +296,12 @@
     flex-direction: column;
     align-items: center;
 
+  }
+
+  .fonts1 {
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Slab', serif;
+    color: #003964;
   }
 
   .test {
@@ -418,6 +430,12 @@
     font-family: 'Roboto Slab', serif;
   }
 
+  .last-button {
+    background-color: orangered;
+    width: 100%;
+    margin-top: 10%;
+  }
+
   footer {
     background-color: #39B173;
     display: flex;
@@ -425,6 +443,12 @@
     align-items: center;
     font-family: 'Roboto', sans-serif;
     font-family: 'Roboto Slab', serif;
+  }
+
+  .fin {
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Slab', serif;
+    color: red;
   }
 
 
