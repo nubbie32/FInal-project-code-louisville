@@ -75,6 +75,14 @@
     list-style-type: none;
     display: flex;
     flex-direction: row;
+    width: 100%;
+  }
+
+  a:link, a:visited {
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Slab', serif;
+    color: white;
   }
 
   .dog-button {
@@ -85,9 +93,7 @@
     padding-bottom: 1%;
     margin-left: 0%;
     margin-right: 0%;
-    font-family: 'Roboto', sans-serif;
-    font-family: 'Roboto Slab', serif;
-    color: white;
+
   }
 
   .cat-button {
@@ -98,9 +104,7 @@
     padding-bottom: 1%;
     margin-left: 0%;
     margin-right: 0%;
-    font-family: 'Roboto', sans-serif;
-    font-family: 'Roboto Slab', serif;
-    color: white;
+    
   }
 
   .fish-button {
@@ -111,9 +115,7 @@
     padding-bottom: 1%;
     margin-left: 0%;
     margin-right: 0%;
-    font-family: 'Roboto', sans-serif;
-    font-family: 'Roboto Slab', serif;
-    color: white;
+
   }
 
   .birds-button {
@@ -124,10 +126,7 @@
     padding-bottom: 1%;
     margin-left: 0%;
     margin-right: 0%;
-    font-family: 'Roboto', sans-serif;
-    font-family: 'Roboto Slab', serif;
-    color: white;
-    text-decoration: none;
+  
   }
 
   .reptiles-button {
@@ -138,9 +137,7 @@
     padding-bottom: 1%;
     margin-left: 0%;
     margin-right: 0%;
-    font-family: 'Roboto', sans-serif;
-    font-family: 'Roboto Slab', serif;
-    color: white;
+    
   }
 
   .meaning {
