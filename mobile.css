@@ -228,7 +228,7 @@
     background-image: url(images/dogs.jpg);
     height: 500px;
     background-position: center;
-    background-size: contain;
+    background-size: cover;
   }
 
   .dogs1 {
@@ -241,7 +241,7 @@
     background-image: url(images/cats.jpg);
     height: 500px;
     background-position: center;
-    background-size: contain;
+    background-size: cover;
   }
 
   .cats1 {
@@ -254,20 +254,20 @@
     background-image: url(images/birds.jpg);
     height: 500px;
     background-position: center;
-    background-size: contain;
+    background-size: cover;
   }
 
   .birds1 {
     font-family: 'Roboto', sans-serif;
     font-family: 'Roboto Slab', serif;
-    color: black;
+    color: white;
   }
 
   .fish {
     background-image: url(images/fish.jpg);
     height: 500px;
     background-position: center;
-    background-size: contain;
+    background-size: cover;
   }
 
   .fish1 {
@@ -280,7 +280,7 @@
     background-image: url(images/reptiles.jpg);
     height: 500px;
     background-position: center;
-    background-size: contain;
+    background-size: cover;
   }
 
   .reptiles1 {
@@ -298,6 +298,14 @@
   }
 
   .fonts {
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Slab', serif;
+    color: #B98757;
+    margin-left: 10%;
+    margin-top: 10%;
+  }
+
+  .fonts3 {
     font-family: 'Roboto', sans-serif;
     font-family: 'Roboto Slab', serif;
     color: white;

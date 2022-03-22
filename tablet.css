@@ -218,6 +218,7 @@
     font-family: 'Roboto', sans-serif;
     font-family: 'Roboto Slab', serif;
     color: white;
+    margin-left: 20%;
   }
 
   .cats {
@@ -232,6 +233,7 @@
     font-family: 'Roboto', sans-serif;
     font-family: 'Roboto Slab', serif;
     color: white;
+    margin-left: 20%;
   }
 
   .birds {
@@ -246,6 +248,7 @@
     font-family: 'Roboto', sans-serif;
     font-family: 'Roboto Slab', serif;
     color: white;
+    margin-left: 20%;
   }
 
   .fish {
@@ -260,6 +263,7 @@
     color: white;
     font-family: 'Roboto', sans-serif;
     font-family: 'Roboto Slab', serif;
+    margin-left: 20%;
   }
 
   .reptiles {
@@ -274,6 +278,14 @@
     font-family: 'Roboto', sans-serif;
     font-family: 'Roboto Slab', serif;
     color: white;
+    margin-left: 20%;
+  }
+
+  .submit-button2 {
+    background-color: rgb(161, 53, 14);
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Slab', serif;
+    margin-left: 20%;
   }
 
   .doggieo {
