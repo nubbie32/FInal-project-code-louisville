@@ -53,8 +53,8 @@
 
   .textbox {
     border-style: solid;
-    border-radius: 15%;
-    font-size: 30px;
+    border-radius: 20px;
+    font-size: 20px;
     margin-top: 20%;
   }
 
@@ -69,6 +69,10 @@
     font-family: 'Roboto', sans-serif;
     font-family: 'Roboto Slab', serif;
     color: aliceblue;
+  }
+
+  .nav-background {
+    background-color:#074980;
   }
 
   ul {
@@ -96,6 +100,7 @@
     padding-bottom: 1%;
     margin-left: 0%;
     margin-right: 0%;
+    border-radius: 10px;
 
   }
 
@@ -107,6 +112,7 @@
     padding-bottom: 1%;
     margin-left: 0%;
     margin-right: 0%;
+    border-radius: 10px;
     
   }
 
@@ -118,6 +124,7 @@
     padding-bottom: 1%;
     margin-left: 0%;
     margin-right: 0%;
+    border-radius: 10px;
 
   }
 
@@ -129,6 +136,7 @@
     padding-bottom: 1%;
     margin-left: 0%;
     margin-right: 0%;
+    border-radius: 10px;
   
   }
 
@@ -140,6 +148,7 @@
     padding-bottom: 1%;
     margin-left: 0%;
     margin-right: 0%;
+    border-radius: 10px;
     
   }
 
