@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 
+<!-- Head-->
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -11,7 +13,11 @@
 
 </head>
 
+<!--Body-->
+
 <body>
+
+    <!--Header-->
 
     <header class="header">
 
@@ -39,40 +45,46 @@
 
             </div>
 
+            <!--JavaScript-->
+
             <h1 id="introduction" class="hello">Here it is</h1>
 
         </section>
+
+        <!--Hamburger menu-->
 
         <nav class="nav-background">
 
             <div class="container">
 
                 <div class="hamburger">
-                   
+
                     <div class="line"></div>
-                   
+
                     <div class="line"></div>
-                   
+
                     <div class="line"></div>
-                   
+
                     <div class="line"></div>
-                   
+
                     <div class="line"></div>
-                
+
                 </div>
+
+                <!--Navbar-->
 
                 <menu class="navbar">
 
                     <ul>
-                        
+
                         <li class="dog-button"><a href="#"><b>Dogs</b></a></li>
-                        
+
                         <li class="cat-button"><a href="#"><b>Cats</b></a></li>
-                        
+
                         <li class="fish-button"><a href="#"><b>Fish</b></a></li>
-                        
+
                         <li class="birds-button"><a href="#"><b>Birds</b></a></li>
-                        
+
                         <li class="reptiles-button"><a href="#"><b>Reptiles</b></a></li>
                     </ul>
 
@@ -98,6 +110,8 @@
         </section>
 
     </header>
+
+    <!--Main-->
 
     <main>
 
@@ -189,6 +203,8 @@
 
                     </div>
 
+                    <!--Flexbox to Grid-->
+
                     <div class="price">
 
                         <p class="fonts">Doggo Hoodie</p>
@@ -265,6 +281,8 @@
 
         </section>
 
+        <!--JavaScript-->
+
         <h1 id="middle" class="fonts fin">Here it is</h1>
 
         <section class="about">
@@ -332,21 +350,22 @@
                     <p>Louisville ky 40202</p>
 
                 </div>
-               
+
                 <div class="ending3">
-               
+
                     <p>502=455-5555</p>
 
-               
+
                     <p>welcometopawcity.gworld.com</p>
-               
+
                 </div>
-               
+
                 <h3 class="media">Social</h3>
 
-            <div class="pictures">
+                <div class="pictures">
 
-                    <img class="modify" src="https://static.vecteezy.com/system/resources/thumbnails/002/661/795/small/social-media-icons-bundle-facebook-instagram-snapchat-linkedin-and-other-logo-buttons-free-vector.jpg">
+                    <img class="modify"
+                        src="https://static.vecteezy.com/system/resources/thumbnails/002/661/795/small/social-media-icons-bundle-facebook-instagram-snapchat-linkedin-and-other-logo-buttons-free-vector.jpg">
 
                 </div>
 
@@ -362,7 +381,7 @@
 
                 <p class="contact2">Email</p>
 
-                <input class="name-box" type="email" name="email"  placeholder="Enter Your email">
+                <input class="name-box" type="email" name="email" placeholder="Enter Your email">
 
                 <p class="contact2">Message</p>
 
@@ -370,31 +389,47 @@
 
                 <button type="submit" class="last-button">Send message</button>
 
-        </div>
+            </div>
 
         </section>
 
     </main>
 
+    <!--Footer-->
+
     <footer class="done">Copyright 2022 PAW CITY CORP</footer>
+
+    <!--JavaScript-->
 
     <h1 id="end" class="fonts fin">Here it is</h1>
 
+    <!--JavaScript-->
+
     <script>
+
         let hamburger = document.querySelector('.hamburger');
+
         let menu = document.querySelector('.navbar');
+
         let bod = document.querySelector('.container');
+
         let intro = document.querySelector("#introduction");
+
         let best = document.querySelector("#middle");
+
         let finish = document.querySelector("#end");
+
         hamburger.addEventListener('click', function () {
+
             hamburger.classList.toggle('isactive');
+
             menu.classList.toggle('active');
 
         });
 
 
         function updateElement(text, element) {
+
             element.textContent = text;
         }
 
@@ -402,17 +437,22 @@
 
 
         let introduction = "Welcome to the page.";
+
         updateElement(introduction, intro);
 
         let middle = "Half way there.";
+
         updateElement(middle, best);
 
         let end = "You have reached the end.";
+
         updateElement(end, finish);
 
-function myFunction() {
-    alert("Thank you for the submit");
-}
+        function myFunction() {
+
+            alert("Thank you for the submit");
+        }
+
     </script>
 
 
