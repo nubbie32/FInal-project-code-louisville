@@ -56,6 +56,8 @@
     width: 30%;
   }
 
+  /* Beginning of hamburger menu */
+
   * {
     margin: 0;
     padding: 0;
@@ -185,6 +187,8 @@
       opacity: 1;
     }
   }
+
+  /*End of Hamburger menu */
 
   .cute {
     background-color: #F7B129;
